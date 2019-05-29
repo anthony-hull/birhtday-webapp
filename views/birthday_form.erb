@@ -1,1 +1,18 @@
 Enter your birthday
+<form action="/birthday-handler" method='post'>
+  <div>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="users_name">
+  </div>
+  <div>
+    <label for="month">Birthmonth:</label>
+    <input type="text" id="month" name="users_birthmonth" >
+  </div>
+  <div>
+    <label for="day">Birthday:</label>
+    <input type="text" id="day" name="users_birthday" >
+  </div>
+  <div class='button'>
+    <button type='submit'>Submit your birthday</button>
+  </div>
+</form>
