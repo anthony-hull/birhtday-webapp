@@ -1,4 +1,4 @@
 require 'sinatra'
 get '/' do
-  "Enter your birthday"
- end
+  erb(:birthday_form)
+end
